@@ -239,7 +239,7 @@ section{scroll-margin-top:70px}
         <p style="margin: 0; font-size: 24px">Strada Palazzo di Città 67–73<br>Bari Vecchia, nel Borgo Antico</p>
         <dl style="margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 8px 22px">
           <dt style="font-family: 'IM Fell English SC', serif">Orari</dt><dd style="margin: 0"><span class="ph">[giorni e orari di apertura]</span></dd>
-          <dt style="font-family: 'IM Fell English SC', serif">WhatsApp</dt><dd style="margin: 0"><span class="ph">[numero]</span></dd>
+          <dt style="font-family: 'IM Fell English SC', serif">WhatsApp</dt><dd style="margin: 0"><a class="wa-link" href="https://wa.me/393928761683" style="color: inherit">392 876 1683</a></dd>
           <dt style="font-family: 'IM Fell English SC', serif">Social</dt><dd style="margin: 0"><span class="ph">[Facebook · Instagram]</span></dd>
         </dl>
         <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 6px">
@@ -286,7 +286,7 @@ section{scroll-margin-top:70px}
 <script>
 (function(){
   // Numero WhatsApp di Roberto, solo cifre con prefisso (es. "393xxxxxxxxx"). Vuoto = bozza.
-  var WA = '';
+  var WA = '393928761683';
   if (WA) document.querySelectorAll('.wa-link').forEach(function(a){ a.href = 'https://wa.me/' + WA; a.target = '_blank'; a.rel = 'noopener'; });
   document.getElementById('form').addEventListener('submit', function(e){
     e.preventDefault();
